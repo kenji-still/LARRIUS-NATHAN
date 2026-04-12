@@ -1,0 +1,22 @@
+.socials {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr ;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.fa-instagram,
+.fa-tiktok,
+.fa-spotify {
+    font-size: 50px;
+}
+.fa-instagram {
+    color: 	rgb(229,105,105);
+}
+.fa-tiktok {
+    color: black;
+}
+.fa-spotify{
+    color: #1DB954;
+}

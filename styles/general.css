@@ -1,0 +1,12 @@
+p {
+    font-family: Montserrat,Nunito,Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body {
+    margin: 0;
+    padding-bottom: 100px;
+}
+html {
+    scroll-behavior: smooth;
+}
