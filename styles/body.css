@@ -19,6 +19,7 @@
     display: grid;
     grid-template-columns: 376px;
     row-gap: 30px;
+    line-height: 30px;
 }
 .my-name {
     font-weight: 700;
