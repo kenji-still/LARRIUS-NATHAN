@@ -11,6 +11,36 @@
     padding-top: 100px;
     padding-left: 250px;
 }
+.me-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.me-text {
+    position: absolute;
+    font-size:20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    width: 300px;
+    background-color: rgba(255, 255, 255,0.2);
+    backdrop-filter: blur(32px);
+    padding: 25px;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    opacity: 0;
+    cursor: default;
+}
+.me-container:hover .me-text {
+    opacity: 1;
+    transition: 1s;
+}
+.me-container:hover img {
+    filter: brightness(80%);
+    transition: 1s;
+}
 .me {
     height: 484.375px;
     width: 461.45px;
