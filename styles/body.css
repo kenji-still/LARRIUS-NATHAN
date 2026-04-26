@@ -7,10 +7,10 @@
 .my-info-container {
     display: flex;
     align-items: center;
-    gap: 100px;
+    justify-content: center;
+     gap: 100px;
     padding-top: 100px;
-    padding-left: 250px;
-}
+} 
 .me-container {
     position: relative;
     display: flex;
@@ -68,7 +68,7 @@
 .socials-text {
     display: flex;
     justify-content: center;
-    padding-top: 70px;
+    margin-top: 70px;
     font-weight: 500;
     text-decoration: underline;
     font-size: 24px;
