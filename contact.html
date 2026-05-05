@@ -1,71 +1,72 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contact</title>
-        <link rel="stylesheet" href="styles/contact.css">
-        <link rel="stylesheet" href="styles/head.css">
-        <link rel="stylesheet" href="styles/general.css">
-        <link rel="stylesheet" href="styles/media-queries.css">
-        <link rel="stylesheet" href="styles/socials.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <script src="styles/script.js" defer></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
-        <div class="header">
-            <div>
+        <header class="header">
+            <nav class="nav">
+                <div class="name-container">
+                    LARRIUS<br>NATHAN
+                </div>
                 <a class="homepage" href="index.html"><i class="fa-regular fa-house"></i></a>
-            </div>
-            <div class="name-container">
-                <div>
-                    LARRIUS
+            
+                <div class="contact-container">
+                    <a class="header-text" href="about.html" target="_parent">About</a>
+                    <a class="header-text" href="contact.html" target="_parent">Contact</a>
                 </div>
-                <div class="Nathan">
-                    NATHAN
-                </div>
-            </div>
-            <div class="contact-container">
-                <a class="header-text" href="about.html" target="_parent">About</a>
-                <a class="header-text" href="contact.html" target="_parent">Contact</a>
-            </div>
-        </div>
-        <div class="contact-text-container">
-                <p class="contact-text">CONTACT</p>
-        </div>
-        <div class="contact-details-container">
+                <button id="theme-toggle">🌙</button>
+            </nav>    
+        </header>
+        <section class="contact-details-container">
             <p class="contact-details">For enquiries, brand deals or print requests, please complete the form below and I&apos;ll be in touch shortly.
             You can also email directly at <span class="email"><strong>larriusnathan00&#64;gmail.com</strong></span></p>
-        </div>
-        <div>
-            <div class="name-input-container">
+        </section>
+        <main>
+            <form class="name-input-container">
                 <input class="name-input" type="text" placeholder="First name">    
                 <input class="name-input" type="text" placeholder="Last name">
-            </div>
+            </form>
             <div>
                 <form class="type-input-container">
-                    <input class="type-input" type="text" placeholder="Type...">
-                    <input class="type-input" type="text">
-                    <input class="type-input" type="text">
-                    <input class="type-input" type="text">
+                    <input class="typeInput" type="text" placeholder="Type...">
+                    <input  type="text">
+                    <input  type="text">
+                    <input  type="text">
                     <button class="submit-button">
                         SUBMIT
                     </button>
                 </form>
-                <div>
-                </div>
             </div>
             <div class="socials">
-            <div>
-                <a target="_blank" href="https://www.instagram.com/gotnosaucelarry/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                <div>
+                    <a target="_blank" href="https://www.instagram.com/gotnosaucelarry/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div>
+                    <a href="https://www.tiktok.com/@gotnosaucelarry" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <div>
+                    <a href="https://open.spotify.com/user/31nvseklxqqkwbv7iz4uq7ipofvi" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+                </div>
             </div>
-            <div>
-                <a href="https://www.tiktok.com/@gotnosaucelarry" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+        </main>
+
+        
+        <footer class="site-footer">
+            <div class="footer-content">
+                <p>© 2026 LARRIUS NATHAN. All rights reserved.</p>
+                <p class="footer-sub">
+                    Designed & built by LARRIUS NATHAN.
+                </p>
             </div>
-            <div>
-                <a href="https://open.spotify.com/user/31nvseklxqqkwbv7iz4uq7ipofvi" target="_blank"><i class="fa-brands fa-spotify"></i></a>
-            </div>
-        </div>
-        </div>
+        </footer>                
     </body>
 </html>

@@ -7,36 +7,28 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles/general.css">
-        <link rel="stylesheet" href="styles/head.css">
-        <link rel="stylesheet" href="styles/body.css">
-        <link rel="stylesheet" href="styles/socials.css">
-        <link rel="stylesheet" href="styles/media-queries.css">
-
+        <link rel="stylesheet" href="styles/main.css">
+        <script src="styles/script.js" defer></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     </head>
     <body>
         <header class="header">
-            <div>
+            <nav class="nav">
+                <div class="name-container">
+                    LARRIUS<br>NATHAN
+                </div>
                 <a class="homepage" href="index.html"><i class="fa-regular fa-house"></i></a>
-            </div>
-            <div class="name-container">
-                <div>
-                    LARRIUS
-                </div>
-                <div class="Nathan">
-                    NATHAN
-                </div>
-            </div>
             
-            <div class="contact-container">
-                <a class="header-text" href="about.html" target="_parent">About</a>
-                <a class="header-text" href="contact.html" target="_parent">Contact</a>
-            </div>
+                <div class="contact-container">
+                    <a class="header-text" href="about.html" target="_parent">About</a>
+                    <a class="header-text" href="contact.html" target="_parent">Contact</a>
+                </div>
+                <button id="theme-toggle">🌙</button>
+            </nav>    
         </header>
         <main class="background-container">
-            <img class="background" src="images/background.png">
+            <img class="background" src="images/pexels-peaky-29459444.jpg">
         </main>
         <section class="my-info-container">
             <div class="me-container">
@@ -46,21 +38,13 @@
                 </p>
             </div>
             <div class="my-info">
-                <div>
-                    <p class="my-name">LARRIUS NATHAN</p>
-                </div>
-                <div>
-                    <p class="profession">Beginner Web Developer &ldquo;Learning, Experimenting & Having Fun&rdquo;</p>
-                </div>
-                <div>
-                    <p class="location">A curious beginner web developer exploring the world of HTML and CSS. I love experimenting with designs, learning by doing, and having fun bringing ideas to life on the web.</p>
-                </div>
+                <p class="my-name">LARRIUS NATHAN</p>
+                <p class="profession">Beginner Web Developer &ldquo;Learning, Experimenting & Having Fun&rdquo;</p>
+                <p class="location">A curious beginner web developer exploring the world of HTML and CSS. I love experimenting with designs, learning by doing, and having fun bringing ideas to life on the web.</p>
             </div>
         </section>
         <section>
-            <div class="socials-text">
-                <p>SOCIALS</p>
-            </div>
+       
             <div class="socials">
                 <div>
                     <a href="https://www.instagram.com/gotnosaucelarry/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
@@ -73,5 +57,13 @@
                 </div>
             </div>
         </section>
+        <footer class="site-footer">
+            <div class="footer-content">
+                <p>© 2026 LARRIUS NATHAN. All rights reserved.</p>
+                <p class="footer-sub">
+                    Designed & built by LARRIUS NATHAN.
+                </p>
+            </div>
+        </footer>              
     </body>
 </html> 

@@ -1,45 +1,41 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>About</title>
-        <link rel="stylesheet" href="styles/head.css">
-        <link rel="stylesheet" href="styles/general.css">
-        <link rel="stylesheet" href="styles/about.css">
-        <link rel="stylesheet" href="styles/media-queries.css">
-        <link rel="stylesheet" href="styles/socials.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <script src="styles/script.js" defer></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
-        <div class="header">
-           <div>
+        <header class="header">
+            <nav class="nav">
+                <div class="name-container">
+                   LARRIUS<br>NATHAN
+                </div>
                 <a class="homepage" href="index.html"><i class="fa-regular fa-house"></i></a>
-            </div>
-            <div class="name-container">
-                <div>
-                    LARRIUS
+            
+                <div class="contact-container">
+                    <a class="header-text" href="about.html" target="_parent">About</a>
+                    <a class="header-text" href="contact.html" target="_parent">Contact</a>
                 </div>
-                <div class="Nathan">
-                    NATHAN
-                </div>
-            </div>
-            <div class="contact-container">
-                <a class="header-text" href="about.html" target="_parent">About</a>
-                <a class="header-text" href="contact.html" target="_parent">Contact</a>
-            </div>
-        </div>
-        <div class="image-container">
-            <img class="background" src="images/about-background.jpg">
-        </div>
-        <div class="description-container">
+                <button id="theme-toggle">🌙</button>
+            </nav>    
+        </header>
+        <main class="image-container">
+            <img class="background" src="images/pexels-peaky-31343288.jpg">
+        </main>
+        <section class="description-container">
             <p class="description">
                 At the moment, I don&apos;t have any formal work experience in a specific field. However, I&apos;ve taken the initiative to start building my skills by learning HTML and CSS on my own, mainly through YouTube tutorials and other online resources. I&apos;m still in the process of practicing and improving my understanding, and I&apos;m committed to becoming more confident and proficient in these areas over time.
                 Looking ahead, I plan to continue expanding my knowledge by moving on to JavaScript once I feel comfortable with HTML and CSS. After that, I intend to study Python as well, so I can develop a broader skill set and open up more opportunities in programming and web development.
             </p>
-        </div>
-        <div class="socials">
+        </section>
+        <section class="socials">
             <div>
                 <a target="_blank" href="https://www.instagram.com/gotnosaucelarry/?hl=en"><i class="fa-brands fa-instagram"></i></a>
             </div>
@@ -49,6 +45,14 @@
             <div>
                 <a href="https://open.spotify.com/user/31nvseklxqqkwbv7iz4uq7ipofvi" target="_blank"><i class="fa-brands fa-spotify"></i></a>
             </div>
-        </div>
+        </section>
+        <footer class="site-footer">
+            <div class="footer-content">
+                <p>© 2026 LARRIUS NATHAN. All rights reserved.</p>
+                <p class="footer-sub">
+                    Designed & built by LARRIUS NATHAN.
+                </p>
+            </div>
+        </footer>        
     </body>
 </html>
